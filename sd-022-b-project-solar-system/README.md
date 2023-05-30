@@ -1,0 +1,1 @@
+# Sola System (React app)

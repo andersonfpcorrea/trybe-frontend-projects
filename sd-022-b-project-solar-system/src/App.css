@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-text-main: white;
+  --color-dark-main: #333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url('./images/background.png');
+  color: var(--color-text-main);
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.header {
+  font-size: 5vw;
+}
+
+.subheader {
+  border: 1px solid var(--color-text-main);
+  border-radius: 5px;
+  font-size: 3.6vw;
+  padding: 1.6rem;
+}
+
+.planets {
+  align-items: baseline;
+  display: flex;
+  font-size: 0.6vw;
+  gap: 0.5rem;
+  justify-content: center;
+  max-width: 90vw;
+}
+
+.planetImg {
+  width: 11vw;
+}
+
+.planet-name {
+  font-size: 2vw;
+}
+
+.mission-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.mission-card {
+  border: 1px solid var(--color-text-main);
+  border-radius: 5px;
+  width: 30vw;
+}
+
+.mission-card p {
+  font-size: 2.6vw;
+}
+
+.mission-card-header {
+  border-bottom: 1px solid var(--color-text-main);
+  font-size: 2.6vw;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.footer {
+  border-top: 1px solid var(--color-text-main);
+  font-size: 2vw;
+  font-weight: 600;
+  margin-top: 6rem;
+  padding: 6rem;
+  text-align: center;
+}
